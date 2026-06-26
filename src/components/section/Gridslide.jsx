@@ -15,6 +15,7 @@ export default function Gridslide() {
     // 5 distinct cards to show inside your slider loop
     const sliderCards = [
         {
+            
             title: "Solid perfume",
             description: "Oral sprays are used for localized medication delivery or to facilitate swallowing in individuals with difficulties consuming pills or liquids.",
             bg: cardImg2,

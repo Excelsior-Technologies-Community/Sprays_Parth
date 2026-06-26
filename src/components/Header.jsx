@@ -159,7 +159,7 @@
             <div className="md:max-w-[100%] xl:max-w-[78%] px-2 mx-auto flex items-center justify-between h-[58px] md:h-[60px] xl:h-[66.5px]">
                 <div className='flex items-center gap-4'>
                     <div className='pr-12 px-2 xl:border-r xl:border-white h-10 flex items-center '>
-                        <img src="/src/assets/images/headertopleft/sprays_-2_100x.png" alt="" />
+                        <a href="/"><img src="/src/assets/images/headertopleft/sprays_-2_100x.png" alt="" /></a>
                     </div>
                     
                     <ul className='flex hidden md:flex items-center list-none p-0 m-0 h-full gap-5'>
@@ -327,10 +327,10 @@
                                         : 'max-h-0 opacity-0 -translate-y-1 pointer-events-none'
                                     }
                                 `}>
-                                        <a href="#" className='py-1'>Login</a>
-                                        <a href="#" className='py-1'>Create Account</a>
-                                        <a href="#" className='py-1'>Wishlist</a>
-                                        <a href="#" className='py-1'>Compare</a>
+                                        <a href="login" className='py-1'>Login</a>
+                                        <a href="/Register" className='py-1'>Create Account</a>
+                                        <a href="/wishlist" className='py-1'>Wishlist</a>
+                                        <a href="/compare" className='py-1'>Compare</a>
                             </div>
                                 
                         </li>

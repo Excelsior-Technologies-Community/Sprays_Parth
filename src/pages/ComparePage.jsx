@@ -33,7 +33,7 @@ const ComparePage = () => {
             />
 
             <div className="text-center">
-              <h3 className="text-2xl font-bold">
+              <h3 className="text-xs md:text-2xl font-bold">
                 {product.title}
               </h3>
 
@@ -42,7 +42,7 @@ const ComparePage = () => {
 
             <div className="text-center">
               <button
-                className="bg-black text-white px-6 py-3 rounded-full"
+                className="bg-black text-white px-3 text-[8px] md:text-xl md:px-6 py-3 rounded-full"
               >
                 Add To Cart
               </button>

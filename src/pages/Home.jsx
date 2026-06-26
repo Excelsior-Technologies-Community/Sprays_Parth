@@ -6,6 +6,10 @@ import Newsectionfun from '../components/section/Section3';
 import ProductSection from '../components/ProductSection';
 import Gridslide from '../components/section/Gridslide';
 import Uniqper from '../components/section/uniqper';
+import Infoproduct from '../components/section/infoproduct';
+import Emailsub from '../components/section/emailsub';
+import Sprayscard from '../components/section/sprayscard';
+import TestimonialSlider from '../components/section/Testimonials';
 export default function Home() {
   return (
     <>
@@ -16,6 +20,10 @@ export default function Home() {
       <ProductSection />
       <Gridslide />
       <Uniqper />
+      <Infoproduct />
+      <Emailsub />
+      <Sprayscard />
+      <TestimonialSlider />
       {/* You can add your Footer component here later if you want it on the homepage too! */}
     </>
   );
